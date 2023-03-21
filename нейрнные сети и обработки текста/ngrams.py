@@ -11,4 +11,8 @@ def ngram(words=["Hello", "world"], n=[2, 3]):
 
 
 word = "язык"
-print(ngram([word]))
+ngrams = ngram([word])
+
+for i in ngrams:
+    print(i, end=" ")
+
